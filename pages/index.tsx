@@ -147,7 +147,7 @@ export default function Home({
           data-repo-id="R_kgDOICz_qQ"
           data-category="Announcements"
           data-category-id="DIC_kwDOICz_qc4CRkWK"
-          data-mapping="pathname"
+          data-mapping="title"
           data-term="Welcome to giscus!"
           data-theme="preferred_color_scheme"
           data-reactions-enabled="1"
