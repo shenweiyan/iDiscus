@@ -143,7 +143,7 @@ export default function Home({
         <div id="comments" className="giscus w-full my-8" />
         <Script
           src="/client.js"
-          data-repo="shenweiyan/BioITee"
+          data-repo="shenweiyan/iDiscus"
           data-repo-id="R_kgDOGsrH9g"
           data-category="Announcements"
           data-category-id="DIC_kwDOGsrH9s4CRguU"
