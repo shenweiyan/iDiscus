@@ -144,16 +144,16 @@ export default function Home({
         <Script
           src="/client.js"
           data-repo="shenweiyan/iDiscus"
-          data-repo-id="R_kgDOGsrH9g"
+          data-repo-id="R_kgDOICz_qQ"
           data-category="Announcements"
-          data-category-id="DIC_kwDOGsrH9s4CRguU"
+          data-category-id="DIC_kwDOICz_qc4CRkWK"
           data-mapping="pathname"
           data-term="Welcome to giscus!"
           data-theme="preferred_color_scheme"
           data-reactions-enabled="1"
           data-emit-metadata="0"
           data-input-position="bottom"
-          data-lang={locale}
+          data-lang="zh-CN"
           data-strict="1"
         />
         <a
