@@ -32,7 +32,7 @@ giscus 加载时，会使用 [GitHub Discussions 搜索 API][search-api] 根据�
 [giscus-app]: https://github.com/apps/giscus
 [authorization]: https://docs.github.com/en/developers/apps/identifying-and-authorizing-users-for-github-apps
 
-<!-- configuration -->
+<!-- disable configuration -->
 
 如果你使用 giscus，请考虑[在 GitHub 上 star 🌟 giscus][repo] 并[为你的仓库][topic-howto]添加 [`giscus`][giscus-topic] 话题！🎉
 

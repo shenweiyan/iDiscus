@@ -22,7 +22,7 @@ import { env } from '../lib/variables';
 
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
   const localeSuffix = locale === 'en' ? '' : `.${locale}`;
-  //const t = await getT(locale, 'config');
+  const t = await getT(locale, 'config');
 
   const path = join(process.cwd(), `README${localeSuffix}.md`);
   const readme = readFileSync(path, 'utf-8');
