@@ -30,7 +30,6 @@ export async function getStaticProps({ locale }: GetStaticPropsContext) {
   const [afterConfig] = contents[1].split('<!-- end -->');
 
   contents[1] = `${afterConfig}\n## ${t('tryItOut')} 👇👇👇\n`;
-  contents[0] = '';
 
   const token = await getAppAccessToken('giscus/giscus').catch(() => '');
   const [contentBefore, contentAfter] = await Promise.all(
