@@ -147,7 +147,7 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
   }, [directConfig.emitMetadata]);
 
   return (
-    <!--div dir={dir} className="markdown p-4 pt-0">
+    <div dir={dir} className="markdown p-4 pt-0">
       <h2>{t('configuration')}</h2>
 
       <h3>{t('language')}</h3>
@@ -635,6 +635,6 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
       <p>
         <Trans i18nKey="config:youCanCustomizeTheLayout" />
       </p>
-    </div-->
+    </div>
   );
 }
