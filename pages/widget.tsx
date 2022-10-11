@@ -148,7 +148,7 @@ export default function WidgetPage({
     <>
       <Head>
         <base target="_top" />
-        <title>giscus</title>
+        <title>iDiscus</title>
       </Head>
 
       <main className="w-full mx-auto" data-theme={resolvedTheme}>
