@@ -22,7 +22,7 @@ import { env } from '../lib/variables';
 
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
   const localeSuffix = locale === 'en' ? '' : `.${locale}`;
-  const t = await getT(locale, 'config');
+  //const t = await getT(locale, 'config');
 
   const path = join(process.cwd(), `README${localeSuffix}.md`);
   const readme = readFileSync(path, 'utf-8');
@@ -44,7 +44,7 @@ export async function getStaticProps({ locale }: GetStaticPropsContext) {
     },
     authorAssociation: 'APP',
     bodyHTML: contentBefore,
-    createdAt: '2022-10-11T13:21:14Z',
+    createdAt: '2022-10-08T13:21:14Z',
     deletedAt: null,
     id: 'onboarding',
     isMinimized: false,
@@ -128,7 +128,7 @@ export default function Home({
   return (
     <main className="gsc-homepage-bg min-h-screen w-full" data-theme={theme}>
       <Head>
-        <title>giscus</title>
+        <title>iDiscus</title>
         <meta name="giscus:backlink" content={env.app_host} />
       </Head>
       <div className="color-text-primary w-full max-w-3xl mx-auto p-2">
