@@ -1,4 +1,4 @@
-# [giscus][giscus]
+# [iDiscus][iDiscus]
 
 由 [GitHub Discussions][discussions] 驱动的评论系统。让访客借助 GitHub 在你的网站上留下评论和反应吧！本项目受 [utterances][utterances] 强烈启发。
 
