@@ -20,7 +20,7 @@ giscus 加载时，会使用 [GitHub Discussions 搜索 API][search-api] 根据�
 
 要评论，访客必须按 GitHub OAuth 流程授权 [giscus app][giscus-app] [代表他发帖][authorization]。或者访客也可以直接在 GitHub Discussion 里评论。你可以在 GitHub 上管理评论。
 
-[iDscus]: https://idiscus.vercel.app/zh-CN
+[iDiscus]: https://idiscus.vercel.app/zh-CN
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/shenweiyan/iDiscus

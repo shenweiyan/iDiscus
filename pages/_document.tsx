@@ -3,7 +3,7 @@ import { AvailableLanguage, getDir } from '../lib/i18n';
 import { getThemeUrl, resolveTheme } from '../lib/utils';
 
 const meta = {
-  title: 'giscus',
+  title: 'iDiscus',
   description: 'A comments widget built on GitHub Discussions.',
   image:
     'https://opengraph.githubassets.com/4f866d5b634e7cd5422af77f8dbfb6d48dd288b7c5c18326544c1973210320ed/giscus/giscus',
